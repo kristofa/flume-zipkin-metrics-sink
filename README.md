@@ -1,9 +1,5 @@
 # flume-zipkin-metrics-sink #
 
-Latest release available in Maven central: 2.4.1. You normally don't have to include this in
-a project through Maven but can download the flume distribution jar from [here](http://search.maven.org/#search%7Cga%7C1%7Cflume-zipkin-metrics-sink)
-to add it to the Flume Agent class path.
-
 [Flume](http://flume.apache.org) Sink implementation that gets annotations with duration from spans. 
 The annotations with duration are application specific and used to measure performance of parts of your code.
 
@@ -29,6 +25,10 @@ duration to Graphite.
                  l-> Channel of your choice -> ZipkinSpanCollectorSink
 
 
+## Installation ##
+
+You normally don't have to include this in a project through Maven but can download the flume distribution jar from [here](http://search.maven.org/#search%7Cga%7C1%7Cflume-zipkin-metrics-sink)
+to add it to the Flume Agent class path.
 
 ## Configuration ##
 
