@@ -1,5 +1,7 @@
 # flume-zipkin-metrics-sink #
 
+**This repository is archived and not maintained anymore. It is still available in read-only mode and can be forked**
+
 [Flume](http://flume.apache.org) Sink implementation that gets annotations with duration from spans. 
 The annotations with duration are application specific and used to measure performance of parts of your code.
 
